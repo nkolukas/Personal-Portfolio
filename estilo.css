@@ -155,8 +155,8 @@ body{
   
 .contact_{
     background-color: #17202A;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -175,21 +175,45 @@ body{
 }
 
 .formulario{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 8px;
+}
+
+.inputs{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 75px 50px 75px;
 }
 
-.formulario ul{
-    list-style: none;
-    padding: 20px;
+.input_{
+    margin: 10px 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid #D2D2D2;
+    padding-top: 10px;
+    color: #D2D2D2;
+    font-size: 1.2rem;
+}
+
+::-webkit-input-placeholder{
+    color: #D2D2D2;
+}
+
+::-moz-input-placeholder{
+    color: #D2D2D2;
+}
+
+::-ms-input-placeholder{
+    color: #D2D2D2;
+}
+
+.btn{
+    background-color: #48C9B0;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
     font-size: 1.5rem;
-}
-
-.formulario li{
-    margin: auto;
-    padding: 20px;
+    color: #17202A;
 }
 
 @media (max-width: 768px){
