@@ -3,30 +3,11 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    transition: 0.4s;
+    transition: 0.2s;
 }
   
 body{
     font-family: "ubuntu", sans-serif;
-}
-  
-h1, h2{
-  text-align: center;
-}
-  
-/* h1{
-    font-size: 4rem;
-} */
-  
-h2{
-    font-size: 3rem;
-    color: #EBEDEF;
-}
-
-img{
-    display: block;
-    width: 100%;
-    border-radius: 8px 8px 0 0;
 }
   
 .header{
@@ -99,7 +80,6 @@ img{
 
 .welcome_section h1{
     font-size: 3.2rem;
-    font-weight: bold;
 }
 
 .welcome_section p {
@@ -107,11 +87,37 @@ img{
     font-size: 3rem;
     color: #001347;
 }
+
+.contact-details{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+}
+  
+.contact-details li a{
+    color: rgb(31, 31, 63);
+    text-decoration: none;
+    margin: 20px;
+    padding: 12px 12px;
+    font-size: 2rem;
+    border-radius: 7px;
+}
+
+.contact-details li a:hover{
+    /* background-color: #A2004C; */
+    transition: 0.2s;
+    border: 4px solid #A2004C;;
+}
   
 .projects_{
     text-align: center;
     padding: 7rem 2rem;
     background-color: #363B59;
+}
+
+.projects_ h2{
+    font-size: 3rem;
+    color: #EBEDEF;
 }
   
 .projects-section-header{
@@ -127,11 +133,19 @@ img{
     margin: 0 auto;
     margin-bottom: 6rem;
 }
+
+.projects-grid img{
+    display: block;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
   
 .project-tile{
     background-color: #0E0E2A;
     padding-bottom: 15px;
     border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .project-title{
@@ -140,7 +154,7 @@ img{
 }
   
 .contact_{
-    background-color: #0E0E2A;
+    background-color: #17202A;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,42 +163,37 @@ img{
     width: 100%;
     height: 90vh;
     padding: 0 2rem;
+    color: #EBEDEF;
+    font-size: 2rem;
 }
 
 .contact_ p{
     color: #EBEDEF;
     font-style: italic;
     text-align: center;
+    padding-top: 30px;
 }
-  
-.contact-details {
+
+.formulario{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario ul{
+    list-style: none;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.formulario li{
+    margin: auto;
+    padding: 20px;
 }
 
 @media (max-width: 768px){
 
-    body{
-        padding-top: 65px;
-        font-size: 1rem;
-    }
-
-    h1{
-        font-size: 2.3rem;
-    }
-      
-    h2{
-        font-size: 3rem;
-        color: #EBEDEF;
-    }
-    
-    img{
-        display: block;
-        width: 100%;
-        border-radius: 8px 8px 0 0;
-    }
-    
     .header{
         height: 65px;
     }
@@ -238,12 +247,14 @@ img{
         background-color: #efefef;
         background-image: linear-gradient(65deg, #E8E8E8 0%, #D2D2D2 100%)
     }
-      
-    .welcome_section > p {
+    
+    .welcome_section h1{
+        font-size: 3.2rem;
+    }
+    
+    .welcome_section p {
         padding-top: 18px;
         font-size: 3rem;
-        font-weight: 200;
-        font-style: italic;
         color: #001347;
     }
       
@@ -251,6 +262,11 @@ img{
         text-align: center;
         padding: 7rem 2rem;
         background-color: #363B59;
+    }
+    
+    .projects_ h2{
+        font-size: 3rem;
+        color: #EBEDEF;
     }
       
     .projects-section-header{
@@ -266,11 +282,19 @@ img{
         margin: 0 auto;
         margin-bottom: 6rem;
     }
+    
+    .projects-grid img{
+        display: block;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
       
     .project-tile{
         background-color: #0E0E2A;
         padding-bottom: 15px;
         border-radius: 8px;
+        text-decoration: none;
+        color: #fff;
     }
     
     .project-title{
@@ -279,7 +303,7 @@ img{
     }
       
     .contact_{
-        background-color: #0E0E2A;
+        background-color: #17202A;
         display: flex;
         flex-direction: column;
         justify-content: center;
