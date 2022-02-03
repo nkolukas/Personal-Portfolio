@@ -220,7 +220,7 @@ body{
 @media (max-width: 576px){
 
     .header{
-        height: 80px;
+        height: 70px;
     }
     
     .nav-menu{
@@ -285,7 +285,7 @@ body{
         text-decoration: none;
         margin: 20px;
         padding: 12px 12px;
-        font-size: 2rem;
+        font-size: 1.7rem;
         border-radius: 7px;
     }
     
