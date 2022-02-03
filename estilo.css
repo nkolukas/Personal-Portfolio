@@ -319,6 +319,10 @@ body{
     .formulario{
         margin: 0;
     }
+
+    .inputs{
+        margin: 0 25px 15px 25px;
+    }
     
     .input_{
         margin: 8px 0;
