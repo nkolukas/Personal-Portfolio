@@ -308,18 +308,27 @@ body{
     
     .contact_{
         grid-template-columns: 1fr;
-        padding: 0;
+        
     }
 
     .titulo{
-        margin-top: 100px;
-        max-width: 240px;
-        font-size: 1rem;
-        align-items: center;
+        margin-top: 90px;
+        max-width: 260px;
+        font-size: 1.2rem;
+        
     }    
 
     .formulario{
-        margin-bottom: 50px;
-
+        margin: 50px 0 ;
+    }
+    
+    .input_{
+        margin: 10px 0;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 3px solid #D2D2D2;
+        padding-top: 10px;
+        color: #D2D2D2;
+        font-size: 1.2rem;
     }
 }
