@@ -321,12 +321,8 @@ body{
     }
     
     .input_{
-        margin: 10px 0;
-        background-color: transparent;
-        border: 0;
-        border-bottom: 3px solid #D2D2D2;
+        margin: 8px 0;
         padding-top: 7px;
-        color: #D2D2D2;
         font-size: 1.1rem;
     }
 }
