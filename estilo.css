@@ -308,7 +308,6 @@ body{
     
     .contact_{
         grid-template-columns: 1fr;
-        
     }
 
     .titulo{
@@ -326,8 +325,8 @@ body{
         background-color: transparent;
         border: 0;
         border-bottom: 3px solid #D2D2D2;
-        padding-top: 10px;
+        padding-top: 7px;
         color: #D2D2D2;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
