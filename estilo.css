@@ -117,7 +117,7 @@ body{
 
 .projects-section-header{
     max-width: 640px;
-    margin: 0 auto 6rem auto;
+    margin: 0 auto 4rem auto;
     font-size: 3rem;
     color: #1B2631;
     padding-top: 120px;
@@ -414,7 +414,8 @@ body{
 
     .projects-section-header{
         font-size: 2rem;
-        padding-top: 80px;
+        padding-top: 105px;
+        margin: 0 auto 5rem auto
     }
 
     .projects-grid{
@@ -452,4 +453,3 @@ body{
         font-size: 1.1rem;
     }
 }
-
